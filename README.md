@@ -1,6 +1,14 @@
 # github-actions-simple-rsync (self-hosted)
 
- .github/workflow/main.yaml
+Just a simple way to push code and update vps code
+
+1. Add Deploy Key
+
+Go to Settings -> Deploy keys -> Add new
+ 
+2. Create file
+
+.github/workflow/main.yaml
 ```
 on: 
   push:
