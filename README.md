@@ -16,5 +16,5 @@ jobs:
     steps:
       - shell: bash
         run: | 
-          rsync -azP --exclude '.git' ~/actions-runner/_work/hotel-reputations/hotel-reputations/ /var/www/
+          rsync -azP --exclude '.git' ~/actions-runner/_work/repo_name/repo_name/ /var/www/
 ```
